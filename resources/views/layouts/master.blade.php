@@ -195,10 +195,10 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
-                </a>
+                <router-link to="users" class="nav-link">
+                  <i class="fas fa-users nav-icon"></i>
+                  <p>Users</p>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -336,6 +336,7 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+  
   <footer class="main-footer">
     <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
     All rights reserved.
@@ -345,10 +346,11 @@
   </footer>
 
   <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
+  <!-- <aside class="control-sidebar control-sidebar-dark"> -->
     <!-- Control sidebar content goes here -->
-  </aside>
+  <!-- </aside> -->
   <!-- /.control-sidebar -->
+  
 </div>
 <!-- ./wrapper -->
 
